@@ -474,7 +474,7 @@ if (($month-1)>0) {
 ?>
 <div class='title'>
     <?php
-            if ($day<=$days) {
+            if ($day<=$days) { 
                 echo $year."年&nbsp;";
                 echo $month."月"; 
                 echo $day."日 "; 
